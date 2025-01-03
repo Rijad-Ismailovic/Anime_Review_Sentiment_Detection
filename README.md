@@ -24,3 +24,5 @@ A model made to predict whether an anime review is positive or negative, based o
 - Long reviews (as in the dataset): **100% accuracy.**
 - Short reviews: **70% accuracy.**
 - Neutral reviews: **50% accuracy.**
+
+![Example of Visualization](final_predictions_graph.png)
