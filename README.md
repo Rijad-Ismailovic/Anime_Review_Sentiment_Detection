@@ -9,8 +9,7 @@ Made some graphs:
   - Count chart of positive and negative reviews.
   - Most common unique words in positive and negative words.
   - Sentiment by demographic.
-Made my model by using LogisticRegression. 70% of the data for training, 30% for testing (From the dataset). **Accuracy: 0.88%**
-
+Made my model by using LogisticRegression. 70% of the data for training, 30% for testing (From the dataset). **Accuracy: 0.88%**. 
 Compared model with other popular models on the test data:
 Tested our model on different AI generated reviews:
   - Long reviews (As they are in the dataset): 100%
