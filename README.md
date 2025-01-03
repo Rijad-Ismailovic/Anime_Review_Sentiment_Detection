@@ -18,7 +18,7 @@ A model made to predict whether an anime review is positive or negative, based o
 - **Accuracy: 88%.**
 
 ### Comparisons:
-- Compared the model with other popular models on the test data.
+- Compared the model with other popular models on the test data.(Vader, TextBlob Flair)
 
 ### Testing on AI-generated reviews:
 - Long reviews (as in the dataset): **100% accuracy.**
