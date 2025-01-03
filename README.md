@@ -1,19 +1,26 @@
 # Anime_Review_Sentiment_Detection
-A model made upredicts whether a anime review is positive or negative, based on a anime review dataset I scraped.
+A model made to predict whether an anime review is positive or negative, based on an anime review dataset I scraped.
 
-Scraping was done using Selenium.
-Each reviw was preprocessed (lemmatization, stopword removal, punctiation removal).
-Labeled data based on scraped review rating (1 or 0 - pos or negative).
-Made some graphs:
-  - Count chart of review ratings.
-  - Count chart of positive and negative reviews.
-  - Most common unique words in positive and negative words.
-  - Sentiment by demographic.
-Made my model by using LogisticRegression. 70% of the data for training, 30% for testing (From the dataset). **Accuracy: 0.88%**. • 
-Compared model with other popular models on the test data.
-Tested our model on different AI generated reviews:
-  - Long reviews (As they are in the dataset): 100%
-  - Short reviews: 70%
-  - Neutral reviews: 50%
+### Overview
+- Scraping was done using Selenium.
+- Each review was preprocessed (lemmatization, stopword removal, punctuation removal).
+- Labeled data based on scraped review rating (1 or 0 - positive or negative).
 
+### Visualizations:
+- Count chart of review ratings.
+- Count chart of positive and negative reviews.
+- Most common unique words in positive and negative reviews.
+- Sentiment by demographic.
 
+### Model:
+- Model used: **LogisticRegression**.
+- Training/testing split: 70% training, 30% testing.
+- **Accuracy: 88%.**
+
+### Comparisons:
+- Compared the model with other popular models on the test data.
+
+### Testing on AI-generated reviews:
+- Long reviews (as in the dataset): **100% accuracy.**
+- Short reviews: **70% accuracy.**
+- Neutral reviews: **50% accuracy.**
