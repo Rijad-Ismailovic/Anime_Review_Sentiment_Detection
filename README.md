@@ -1,4 +1,4 @@
-# AnimeReview_Sentiment_Detection
+# Anime Review Sentiment Detection
 A model made to predict whether an anime review is positive or negative, based on an anime review dataset I scraped.
 
 ### Overview
